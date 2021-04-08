@@ -1,4 +1,5 @@
-import resume from '../Resume/Michael Iodice Resume.docx'
+import resumepdf from '../Resume/Michael Iodice Resume.pdf'
+import resumedocx from '../Resume/Michael Iodice Resume.docx'
 
 function About() {
     return (
@@ -23,16 +24,16 @@ function About() {
                 </div>
 
                 <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href={resume}>
-                        <i className="fas fa-download mr-2"></i>
-                        Resume PDF Download
+                    <a className="btn btn-xl btn-outline-light" target="blank" href={resumepdf}>
+                        <i className="fas fa-file mr-2"></i>
+                        View Resume
                     </a>
                 </div>
 
                 <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href={resume}>
+                    <a className="btn btn-xl btn-outline-light" href={resumedocx}>
                         <i className="fas fa-download mr-2"></i>
-                        Resume PDF Download
+                        Download Resume
                     </a>
                 </div>
 
