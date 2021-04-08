@@ -7,18 +7,18 @@ function Footer() {
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <h4 className="text-uppercase mb-4">Location</h4>
                             <p className="lead mb-0">
-                                2215 John Daniel Drive
+                                {/* 2215 John Daniel Drive */}
                                 <br />
-                                Clark, MO 65243
+                                Littleton, CO 80127
                             </p>
                         </div>
 
                         <div className="col-lg-4 mb-5 mb-lg-0">
                             <h4 className="text-uppercase mb-4">Around the Web</h4>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
-                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble"></i></a>
+                            <a className="btn btn-outline-light btn-social mx-1" target="blank" href="https://github.com/miodice3"><i className="fab fa-fw fa-github"></i></a>
+                            <a className="btn btn-outline-light btn-social mx-1" target="blank" href="https://www.linkedin.com/in/michael-iodice-0158/"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                            {/* <a className="btn btn-outline-light btn-social mx-1" target="blank" href="https://www.facebook.com/michael.iodice.14"><i className="fab fa-fw fa-facebook-f"></i></a> */}
+                            <a className="btn btn-outline-light btn-social mx-1" target="blank" href="https://www.youtube.com/channel/UCB3OcWnhiAyw3oyIlimWWrA"><i className="fab fa-fw fa-youtube"></i></a>                            
                         </div>
 
                         <div className="col-lg-4">
