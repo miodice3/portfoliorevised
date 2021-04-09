@@ -16,7 +16,7 @@ function About() {
 
                 <div className="row">
                     <div className="col-lg-4 ml-auto"><p className="lead">
-                        Hi, I'm Mike, thanks for making it this far.
+                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
                         </p></div>
                     <div className="col-lg-4 mr-auto"><p className="lead">
                         You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
