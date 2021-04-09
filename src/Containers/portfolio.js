@@ -1,5 +1,14 @@
 import Emissions from '../Components/emissions.js'
 import Emissions2 from '../Components/emissions2.js'
+import Emissions3 from '../Components/emissions3.js'
+
+import SolSearch from '../Components/solsearch.js'
+
+import ReportCard from '../Components/reportcard.js'
+
+import WifiBox1 from '../Components/WifiBox1.js'
+import WifiBox2 from '../Components/WifiBox2.js'
+import WifiBox3 from '../Components/WifiBox3.js'
 
 function Portfolio() {
     return (
@@ -15,17 +24,38 @@ function Portfolio() {
                     <div className="divider-custom-line"></div>
                 </div>
 
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">React / Redux</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">A Useful Tool - an Auto Emissions Analyzer</h5>
+                <br/>
                 <div className="row justify-content-center">
-
                     <Emissions />
-                    <Emissions />
-                    <Emissions />
-
                     <Emissions2 />
-                    <Emissions2 />
-                    <Emissions2 />
-
+                    <Emissions3 />
                 </div>
+
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Ruby on Rails</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Sol-Search - a Renewable Energy Marketplace</h5>
+                <br/>
+                <div className="row justify-content-center">
+                    <SolSearch />
+                </div>
+
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Ruby, Sinatra</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Report Card - Goal setting with analysis!</h5>
+                <br/>
+                <div className="row justify-content-center">
+                    <ReportCard />
+                </div>
+
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Arduino, C++, Android App Builder</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Motivational Box - A motivational tool</h5>
+                <br/>
+                <div className="row justify-content-center">
+                    <WifiBox1 />
+                    <WifiBox2 />
+                    <WifiBox3 />
+                </div>
+
             </div>
         </section>
 
