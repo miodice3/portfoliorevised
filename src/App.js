@@ -13,8 +13,10 @@ function App() {
     <Router>
     <div>
       <Header />
-      <Route exact path='/' component={MainPage} />
-      <Route exact path='/emissions' component={EmissionsProjectPage}/>
+      <MainPage />
+      {/* <Route exact path='/' component={MainPage} /> */}
+      {/* <Route exact path='/emissions' component={EmissionsProjectPage}/> */}
+      {/* add new routes for other projects */}
       <Footer />
     </div>
     </Router>
