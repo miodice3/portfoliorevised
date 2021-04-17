@@ -24,8 +24,8 @@ function Portfolio() {
                     <div className="divider-custom-line"></div>
                 </div>
 
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">React / Redux</h5>
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">A Useful Tool - an Auto Emissions Analyzer</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">React / Redux - A Useful Tool</h5>
+                {/* <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">A Useful Tool</h5> */}
                 <br/>
                 <div className="row justify-content-center">
                     <Emissions />
@@ -33,22 +33,22 @@ function Portfolio() {
                     <Emissions3 />
                 </div>
 
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Ruby on Rails</h5>
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Sol-Search - a Renewable Energy Marketplace</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Ruby on Rails - sol-search</h5>
+                {/* <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Sol-Search - a Renewable Energy Marketplace</h5> */}
                 <br/>
                 <div className="row justify-content-center">
                     <SolSearch />
                 </div>
 
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Ruby, Sinatra</h5>
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Report Card - Goal setting with analysis!</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Ruby / Sinatra - report card</h5>
+                {/* <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Report Card - Goal setting with analysis!</h5> */}
                 <br/>
                 <div className="row justify-content-center">
                     <ReportCard />
                 </div>
 
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Arduino, C++, Android App Builder</h5>
-                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Motivational Box - A motivational tool</h5>
+                <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Arduino, C++, Android App Builder - motivational box</h5>
+                {/* <h5 className="page-section-heading text-center text-lowercase text-secondary mb-0">Motivational Box - A motivational tool</h5> */}
                 <br/>
                 <div className="row justify-content-center">
                     <WifiBox1 />
