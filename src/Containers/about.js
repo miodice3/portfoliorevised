@@ -6,7 +6,7 @@ function About() {
         <section className="page-section bg-primary text-white mb-0" id="about">
             <div className="container">
 
-                <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 className="page-section-heading text-center text-uppercase text-white">About Me</h2>
 
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
@@ -16,10 +16,10 @@ function About() {
 
                 <div className="row">
                     <div className="col-lg-4 ml-auto"><p className="lead">
-                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                    I love to analyze problems and build tools.  I have previously found success working in Real Estate coordinating major renovations, handling the purchase and sale of property ranging from $1.5mm-$45mm per transaction, coordinating new construction, and long term strategy advising for Trust and LLC dissolution.
                         </p></div>
                     <div className="col-lg-4 mr-auto"><p className="lead">
-                        You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                    I am currently seeking a mature engineering team that will help me develop production grade habits and provide excellent mentorship.  I can add value to any company that needs a solutions oriented software engineer that loves to work hard and think outside the box.
                         </p></div>
                 </div>
 
