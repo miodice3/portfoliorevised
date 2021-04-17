@@ -1,5 +1,5 @@
 
-function EmissionsDetail() {
+function EmissionsProjectPage() {
     return (
                     <div>
                         <br></br>
@@ -12,4 +12,4 @@ function EmissionsDetail() {
     );
   }
   
-  export default EmissionsDetail;
+  export default EmissionsProjectPage;

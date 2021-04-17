@@ -3,7 +3,7 @@ import Header from './Containers/header.js'
 import Footer from './Containers/footer.js'
 
 import MainPage from './Components/mainPage.js'
-import EmissionsDetail from './Components/emissionsDetail.js'
+import EmissionsProjectPage from './Components/emissionsProjectPage.js'
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header />
       <Route exact path='/' component={MainPage} />
-      <Route exact path='/emissions' component={EmissionsDetail}/>
+      <Route exact path='/emissions' component={EmissionsProjectPage}/>
       <Footer />
     </div>
     </Router>
