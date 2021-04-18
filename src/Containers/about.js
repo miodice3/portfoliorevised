@@ -4,6 +4,8 @@ import resumedocx from '../Resume/Michael Iodice Resume.docx'
 function About() {
     return (
         <section className="page-section bg-primary text-white mb-0" id="about">
+            <br></br>
+            <br></br>
             <div className="container">
 
                 <h2 className="page-section-heading text-center text-uppercase text-white">About Me</h2>

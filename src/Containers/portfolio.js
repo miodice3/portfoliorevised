@@ -14,6 +14,8 @@ function Portfolio() {
     return (
 
         <section className="page-section portfolio" id="portfolio">
+            <br></br>
+            <br></br>
             <div className="container">
 
                 <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
